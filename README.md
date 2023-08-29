@@ -13,3 +13,4 @@ This repository documents my journey through the "100 Days of Code" challenge. B
 | 2023-08-26 | day07  | Ultimate Rust Crash Course                               | 13/35    | Rust Fundamentals                                          |
 | 2023-08-27 | day08  | FastAPI - The Complete Course 2023 (Beginner + Advanced) | 97/193   | TodoApp Completed                                          |
 | 2023-08-28 | day09  | FastAPI - The Complete Course 2023 (Beginner + Advanced) | 116/193  | Authentication                                             |
+| 2023-08-29 | day10  | FastAPI - The Complete Course 2023 (Beginner + Advanced) | 116/193  | Authentication cont.                                       |
