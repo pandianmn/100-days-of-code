@@ -32,9 +32,11 @@ class TodoRequest(BaseModel):
     complete: bool
 
 
-@router.get("/")
-async def read_all(db: db_dependency, status_code=status.HTTP_200_OK):
-    todos = db.query(Todos).all()
+@router.get("/", status_code=status.HTTP_200_OK)
+async def read_all(
+    user: user_dependency, db: db_dependency, status_code=status.HTTP_200_OK
+):
+    todos = db.query(Todos).filter(Todos.owner_id == user.get("id")).all()
     return todos
 
 
